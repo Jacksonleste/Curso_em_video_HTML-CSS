@@ -4,34 +4,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>outras formatacçoes</title>
+    <title>Listas</title>
 </head>
 <body>
-    <h1>Outras formataçoes</h1>
-    <h2>Código fonte / Pré-formatação</h2>
-    <p>O comando <code>document.getelEmentbyId("teste")</code></p>
-    <pre>
-        <code>
-    num = int(input('Digite um número: '))
-    if num % 2 == 0:
-        print(f'O número {num} é par.')
-    else:
-        print(f'O número {num} é impar.')
-        </code>
-    </pre>
-    <h2>Citações Simples</h2>
-    <p>Como diria o pai de um amigo: <q>O computador é um burro muito rápido</q>.</p>
-    <h2>Citações completas</h2>
-    <p>Segundo Albert Einstein:</p>
-        <blockquote>
-        “Os computadores são incrivelmente rápidos, precisos e burros;
-         os homens são incrivelmente lentos, imprecisos e brilhantes;
-         juntos, seus poderes ultrapassam os limites da imaginação.”
-        </blockquote>
-    <h2>Abreviações</h2>
-    <p>Estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr>
-         & <abbr title="Cascate Style Sheets">CSS</abbr>, Estou adorando!</p>
-    <h2>Texto invertido</h2>
-    <p><bdo dir="rtl">Não tem funcionalidade alguma</bdo></p>
+    <h1>Tabalhando com listas</h1>
+    <h2>Listas ordenadas</h2>
+    <ol type="1"> <!--1 A a I i -->
+        <li>Acordar</li>
+        <li>Ligar para o joão</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Estudar</li>
+        <li>Almoçar</li>
+        <li>Lavar a louça</li>
+        <li>Limpar a casa</li>
+        <li>Ver netflix</li>
+        <li>Dormir</li>
+    </ol>
+    <h2>Listas não ordenadas</h2>
+    <ul type="square"> <!-- disc, circle, sqquare-->
+        <li>Arroz</li>
+        <li>Biscoito</li>
+        <li>Tomate</li>
+        <li>Miojo</li>
+        <li>Azeitona</li>
+    </ul>
+    <h2>Juntando listas v1</h2>
+    <h3>Séries e filmes preferidos de herois</h3>
+        <ol>
+            <li>Séries</li>
+            <ol type="a">
+                <li>The flash</li>
+                <li>Falcon and The winter soldier</li>
+                <li>Arrow</li>
+                <li>WandaWision</li>
+                <li>Titãs</li>
+                <li>Legends os Tommorow</li>
+            </ol>
+            <li>Filmes</li>
+            <ol type="a">
+                <li>Infinity War</li>
+                <li>Spider-Man(2002)</li>
+                <li>Iron-man</li>
+                <li>Docotor Strange</li>
+                <li>Ultimato</li>
+                <li>Hulk</li>
+                <li>Ant-Man</li>
+            </ol>
+            <li>Animações</li>
+            <ol type="a">
+                <li>Ultimate Spider-Man</li>
+                <li>Flashpoint</li>
+                <li>Liga da Justiça: guerra de apokolips</li>
+                <li>Hulk e os agentes smash</li>
+            
+            </ol>
+        </ol>
+        <h2>Lista de definições</h2>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Linguagem de marcação para criação do conteúdo de um site.</dd>
+            <dt>CSS</dt>
+            <dd>Linguagem de marcação para criação do estilo de um site.</dd>
+            <dt>Linguagem de programação para iteração de um site</dt>
+        </dl>
+
 </body>
-</html> 
+</html>
